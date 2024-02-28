@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+}
+
+.week-info {
+    display: none;
+  }
+      
+.extra-info:hover + .week-info {
+    display: block;
+    color: grey;
+  }
